@@ -5,7 +5,7 @@ import seaborn as sns
 import plotly.express as px
 
 # Load dataset
-df = pd.read_csv("C:/Users/Lenovo/Downloads/all_data.csv", parse_dates=["datetime"])
+df = pd.read_csv("dashboard/all_data.csv", parse_dates=["datetime"])
 
 # Set title
 st.title("Dashboard Kualitas Udara - Dongsi")
