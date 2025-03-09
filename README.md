@@ -1,8 +1,12 @@
-# Dashboard Project DBS
+# Dashboard Project DBS ✨
+
 ## Setup environment
-.venv\Scripts\Activate.ps
-
+```sh
+.venv\Scripts\Activate.ps1
 pip install streamlit pandas matplotlib seaborn plotly
+'''
 
-## Run steamlit app
+## Run Streamlit App
+```sh
 streamlit run dashboard/dashboard.py
+'''
